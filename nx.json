@@ -7,5 +7,9 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "ng2-throttle-click": {
+      "tags": []
+    }
+  }
 }

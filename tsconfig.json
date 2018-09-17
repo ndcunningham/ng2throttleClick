@@ -16,6 +16,9 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@ng2throttleClick/ng2-throttle-click": [
+        "libs/ng2-throttle-click/src/index.ts"
+      ]
     }
   },
   "exclude": [
