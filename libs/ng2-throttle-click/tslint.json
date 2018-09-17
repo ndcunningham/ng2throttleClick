@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "ng2throttleClick",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ng2throttleClick",
+      "kebab-case"
+    ]
+  }
+}
