@@ -6,7 +6,7 @@ import {
   OnInit,
   HostListener
 } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Subject, Subscription } from 'rxjs';
 import { throttleTime } from 'rxjs/operators';
 import { ThrottledEvents } from './throttled-events.enum';
 
@@ -40,7 +40,7 @@ export class Ng2ThrottleClickDirective implements OnInit {
    */
   @Output() throttleClick = new EventEmitter<MouseEvent>();
 
-  private elementClicked$ = new Subject();
+  private elementClicked$ = new Subject<MouseEvent>();
   public subscription: Subscription;
 
   constructor() {}
