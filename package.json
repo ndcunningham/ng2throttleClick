@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
+  "author": {
+    "name": "Nicholas Cunningham",
+    "email": "ndcunningham@gmail.com",
+    "url": "http://www.github.com/ndcunningham"
+  },
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",
