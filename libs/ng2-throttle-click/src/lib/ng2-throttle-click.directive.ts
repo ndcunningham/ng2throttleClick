@@ -1,14 +1,6 @@
-import {
-  Directive,
-  Input,
-  Output,
-  EventEmitter,
-  OnInit,
-  HostListener
-} from '@angular/core';
+import { Directive, Input, Output, EventEmitter, OnInit, HostListener } from '@angular/core';
 import { Subject, Subscription } from 'rxjs';
 import { throttleTime } from 'rxjs/operators';
-import { ThrottledEvents } from './throttled-events.enum';
 
 /**
  * How it works
