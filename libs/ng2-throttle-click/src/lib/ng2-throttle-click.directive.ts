@@ -20,7 +20,8 @@ import { ThrottledEvents } from './throttled-events.enum';
  * unexpected results such as multiple events firing / calling the bound function.
  */
 @Directive({
-  selector: '[ng2throttleClick]'
+  selector: '[ng2throttleClick]',
+  exportAs: 'ng2throttleClick'
 })
 export class Ng2ThrottleClickDirective implements OnInit {
   /**
